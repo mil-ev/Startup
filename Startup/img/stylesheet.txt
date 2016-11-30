@@ -1,0 +1,53 @@
+.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    
+	background-position: @x @y;
+    
+	width: @width;
+    
+	height: @height;
+
+}
+
+
+.sprite {
+
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+
+    display: block;
+
+
+    &.sprite-clients-logo-1 {
+
+        .stitches-sprite(-5px, -5px, 141px, 27px);
+
+    }
+
+    
+    &.sprite-clients-logo-2 {
+
+        .stitches-sprite(-5px, -42px, 121px, 49px);
+
+    }
+
+
+    &.sprite-clients-logo-3 {
+
+        .stitches-sprite(-5px, -101px, 142px, 17px);
+
+    }
+
+
+    &.sprite-clients-logo-4 {
+
+        .stitches-sprite(-5px, -128px, 109px, 21px);
+
+    }
+
+
+    &.sprite-clients-logo-5 {
+
+        .stitches-sprite(-5px, -159px, 123px, 46px);
+
+    }
+}
